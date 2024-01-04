@@ -15,7 +15,7 @@ for i in range(len(msgs)):
 #     if 'content' in msgs[i].keys():
 #         print(msgs[i]['content'])
 
-# compter qui à envoyer le plus de messages
+# compter qui a envoyé le plus de messages
     if 'sender_name' in msgs[i].keys():
         if msgs[i]['sender_name'] =="Simon Duperray":
             simon+=1
